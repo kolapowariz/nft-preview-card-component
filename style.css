@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Outfit', sans-serif;
+}
+.main{
+  background-color: hsl(216, 50%, 16%);
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 75vh;
+}
+.img-1{
+  width: 18rem;
+  border-radius: 10px;
+}
+.img-1:hover{
+  background: url(./images/icon-view.svg) no-repeat center center;
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0.5;
+  padding: 100px 100px;
+  width: 0;
+  height: 8.5vh;
+}
+p{
+  width: 17rem;
+  margin-top: 10px;
+}
+.one-1{
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+.one-1:hover{
+  color: hsl(178, 100%, 50%);
+}
+.one-2{
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);  
+}
+.eth{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  width: 17rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.one-3{
+  font-weight: 400;
+  color: hsl(178, 100%, 50%);
+  margin-left: 0.5rem;
+}
+.one-4{
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+  margin-left: 0.3rem;
+}
+#h-line{
+  border-top: 0.5px solid  hsl(215, 32%, 27%);
+  width: 18rem;
+}
+.ava{
+  width: 2rem;
+  border: 2px solid  hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+#lasts{
+  display: flex;
+  margin-top: 1rem;
+  width: 20rem;
+  margin-left: 3rem;
+}
+.last{
+  color:hsl(215, 51%, 70%);
+  font-size: 15px;
+  margin-left: 1.3rem;
+  
+}
+.last-1{
+  color:hsl(0, 0%, 100%) ;
+}
+.last-1:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+
+
+}
